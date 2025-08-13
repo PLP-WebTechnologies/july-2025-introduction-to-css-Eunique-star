@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#goals">Learning Goals</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Tech Skills Training Workshop</h1>
+      <p id="intro">
+        Join our free training sessions designed for beginners and aspiring tech
+        professionals. Learn essential skills, meet like-minded learners, and
+        grow your digital confidence.
+      </p>
+
+      <!--Creating a List-->
+      <div class="list">
+        <!--Ordered List-->
+        <h2 id="courses">Courses we offer include:</h2>
+        <ol>
+          <li>Basic Computer Skills</li>
+          <li>Microsoft Office Tools</li>
+          <li>Web Development(HTML, CSS, JavaScript)</li>
+          <li>Intro to AI tools</li>
+          <li>Internet Safety</li>
+        </ol>
+      </div>
+
+      <div class="list">
+        <!--Unordered List-->
+        <h2 id="goals">Learning Goals include:</h2>
+        <ul>
+          <li>Build confidence in using computers and digital tools.</li>
+          <li>
+            Learn essential tech skills for education, career, or personal
+            growth.
+          </li>
+          <li>Gain hands-on experience in creating and managing content.</li>
+          <li>Understand the structure of a website and how to build one.</li>
+          <li>
+            Improve digital literacy and become more independent in tech use.
+          </li>
+          <li>
+            Prepare for further learning in programming or IT-related fields.
+          </li>
+        </ul>
+      </div>
+
+      <!--Table-->
+      <table border="1" id="schedule">
+        <caption>
+          Workshop Schedule
+        </caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Basic Computer Skills</td>
+            <td>10:00am - 12:00pm</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Microsoft Office Tools</td>
+            <td>10:00am - 12:00pm</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Web Development</td>
+            <td>12:00pm - 4:00pm</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Intro to AI tools</td>
+            <td>8:00am - 10:00am</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Internet Safety</td>
+            <td>8:00am - 10:00am</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!--Embedding an image-->
+      <img
+        src="training-session.jpg"
+        alt="A group of people learning with computers"
+        width="250"
+        height="200"
+      />
+      <br />
+
+      <!--Embedding a video-->
+      <video controls>
+        <source src="training_video.mp4" type="video/mp4" />
+        Your browser does not support this video.
+      </video>
+      <br>
+
+      <button type="button" id="register">Register Now</button>
+    </main>
+    <footer></footer>
+  </body>
+</html>
