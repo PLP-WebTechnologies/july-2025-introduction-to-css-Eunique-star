@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box; /* Used Universal selector for border-box so that all elements include padding and border in their total width and height */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Set a serif font for the entire document */
+}
+
+nav{
+    text-align: center; /* Center the navigation menu */
+    background-color: #333; /* Set background color for the navigation bar */
+    padding: 10px 0; /* Add padding to the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a single line */
+    margin-right: 50px; /* Add space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color */
+    font-size: 20px; /* Set font size for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: gold;
+}
+
+h1{
+    text-align: center; /* Center the main heading */
+    color: #333; /* Set color for the main heading */
+    text-shadow: 3px 3px 5px gold;
+    font-size: 2.5em;
+}
+
+#intro{
+    font-size: 18px; /* Set font size for the introduction paragraph */
+    line-height: 1.6; /* Set line height for better readability */
+    margin-bottom: 20px; /* Add space below the introduction paragraph */
+}
+
+h2{
+    text-align: center; /* Center the subheadings */
+    background-color: gold;
+    color: #333; /* Set color for the subheadings */
+    font-size: 2em;
+    box-shadow: 2px 2px 5px #333;
+    margin: 50px 0; /* Add vertical margin */
+    border: 2px solid #333; /* Add border around subheadings */
+}
+.list li{
+    font-size: 18px; /* Set font size for list items */
+    line-height: 25px; /* Set line height for better readability */
+    margin-bottom: 10px; /* Add space below each list item */
+}
+
+.list ol, .list ul {
+    margin-left: 30px; /* Add margin to the left for ordered and unordered lists */
+}
+
+table{
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    width: 100%; /* Make the table take the full width */
+    margin-top: 50px; /* Add space above the table */
+}
+
+table caption{
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+table, th, td {
+    border: 1px solid #333; /* Add darker border to table, th, and td */
+}
+
+th, td {
+    padding: 12px 15px; /* Add padding to table cells */
+}
+
+th {
+    background-color: gold; /* Set background color for table headers */
+    color: #333; /* Set text color for table headers */
+}
+
+img{
+    margin: 30px auto;
+}
+
+#register{
+    background-color: gold; /* Set background color for the register button */
+    color: #333; /* Set text color for the register button */
+    border-radius: 20px;
+    width: 200px; /* Set width for the register button */
+    padding: 10px; /* Add padding to the register button */
+    display: block; /* Make the button a block element */
+    margin: 30px auto; /* Center the button horizontally */
+}
+#register:hover {
+    background-color: #333; /* Change background color on hover */
+    color: gold; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
